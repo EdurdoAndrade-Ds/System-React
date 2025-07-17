@@ -34,7 +34,7 @@ wordflow-react/
 1. **Clone o repositório**:
 
 ```bash
-git clone https://github.com/SEU-USUARIO/wordflow-react.git
+git clone https://github.com/EdurdoAndrade-Ds/wordflow-react.git
 ```
 
 2. **Acesse o diretório**:
