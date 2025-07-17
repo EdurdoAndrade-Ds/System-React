@@ -55,9 +55,6 @@ Editar
 npm run dev
 Acesse no navegador:
 
-arduino
-Copiar
-Editar
 http://localhost:5173
 ✅ Funcionalidades
 Interface com 10 abas
@@ -76,15 +73,4 @@ Estrutura pronta para autenticação
 📃 Licença
 Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
 
-Feito com 💻 por Seu Nome
-
-perl
-Copiar
-Editar
-
 ---
-
-### O que você precisa alterar:
-- Troque `https://github.com/seu-usuario/seu-repositorio.git` pelo link do seu GitHub.
-- Altere `[Seu Nome]` e `[seu-usuario]` para o seu nome e usuário.
-- Se você quiser, posso gerar a versão real do seu `README.md` com base no link real do repositório — é só mandar!
