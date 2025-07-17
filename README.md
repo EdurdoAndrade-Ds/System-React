@@ -1,76 +1,81 @@
 # WordFlow 📝
 
-**WordFlow** é um painel moderno feito com **React + Vite**, projetado para organização de conteúdo textual e navegação por abas. A aplicação conta com integração simulada via API e uma interface limpa com Tailwind CSS.
+**WordFlow** é um painel web moderno criado com **React + Vite**, focado em navegação por abas, organização de conteúdo e integração com APIs simuladas. Com uma interface limpa baseada em Tailwind CSS, ele oferece uma base sólida para aplicações frontend.
 
 ## 🚀 Tecnologias Utilizadas
 
-- [React](https://reactjs.org/)
-- [Vite](https://vitejs.dev/)
+- [React 18](https://reactjs.org/)
+- [Vite 5](https://vitejs.dev/)
 - [React Router DOM](https://reactrouter.com/)
 - [Tailwind CSS](https://tailwindcss.com/)
-- [Lucide React Icons](https://lucide.dev/)
 - [Axios](https://axios-http.com/)
+- [Lucide React](https://lucide.dev/)
+- [Heroicons](https://heroicons.com/)
 
-## 📂 Estrutura
+## 📂 Estrutura do Projeto
 
+```
 wordflow-react/
 ├── public/
 ├── src/
-│ ├── pages/ # Telas/Abas da aplicação
-│ ├── App.jsx # Componente principal
-│ ├── main.jsx # Ponto de entrada
-│ ├── index.css # Estilos globais
+│   ├── pages/          # Telas e componentes de cada aba
+│   ├── App.jsx         # Roteamento e estrutura principal
+│   ├── main.jsx        # Ponto de entrada do React
+│   ├── index.css       # Estilos globais
 ├── index.html
 ├── tailwind.config.js
+├── postcss.config.js
 ├── vite.config.js
 ├── package.json
+```
 
-bash
-Copiar
-Editar
+## 🛠️ Instalação e Uso
 
-## 🔧 Como rodar localmente
-
-1. Clone o repositório:
+1. **Clone o repositório**:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-Acesse a pasta do projeto:
+git clone https://github.com/SEU-USUARIO/wordflow-react.git
+```
 
-bash
-Copiar
-Editar
+2. **Acesse o diretório**:
+
+```bash
 cd wordflow-react
-Instale as dependências:
+```
 
-bash
-Copiar
-Editar
+3. **Instale as dependências**:
+
+```bash
 npm install
-Inicie o servidor de desenvolvimento:
+```
 
-bash
-Copiar
-Editar
+4. **Inicie o servidor de desenvolvimento**:
+
+```bash
 npm run dev
-Acesse no navegador:
+```
 
+5. **Acesse no navegador**:
+
+```
 http://localhost:5173
-✅ Funcionalidades
-Interface com 10 abas
+```
 
-Integração com API simulada (mock)
+## ✅ Funcionalidades
 
-Sidebar funcional com ícones
+- Interface de múltiplas abas
+- Navegação com React Router
+- Integração com APIs simuladas via Axios
+- Layout responsivo e estilizado com Tailwind CSS
+- Sidebar com ícones intuitivos (Lucide + Heroicons)
+- Estrutura preparada para autenticação e expansão futura
 
-Layout responsivo com Tailwind
+## 📌 Status
 
-Estrutura pronta para autenticação
+🚧 Em desenvolvimento – novas funcionalidades estão sendo adicionadas.
 
-📌 Status
-⚒️ Em desenvolvimento – melhorias contínuas sendo adicionadas.
+## 📄 Licença
 
-📃 Licença
-Este projeto está sob a licença MIT. Veja o arquivo LICENSE para mais detalhes.
+Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais informações.
 
 ---
